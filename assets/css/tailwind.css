@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.label-required::after {
+    content: " *";
+    color: red;
+}
+
+input.border-red-500 {
+    border-color: #c87872 !important;
+}
+
+label {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.field-desc {
+    font-family: arial, helvetica, sans-serif;
+    color: #7C98B6;
+    font-size: 11px;
+}
+
+.info-text {
+    margin-bottom: 3px;
+    font-size: 14px;
+    word-break: break-word;
+    color: #33475b;
+    line-height: normal;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.form-submit-btn {
+    background: #37d780;
+    border-color: #37d780;
+    color: #102d7b;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: arial, helvetica, sans-serif;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: 12px 24px;
+}
+

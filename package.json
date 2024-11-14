@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  },
+  "scripts": {
+    "startTailwind": "npx tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwind-output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.9"
+  }
+}
